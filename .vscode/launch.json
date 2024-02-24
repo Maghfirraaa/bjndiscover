@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bjndiscover",
+            "request": "launch",
+            "type": "dart",
+            "ACCESS_TOKEN": "pk.eyJ1IjoibWFnaGZpcmEiLCJhIjoiY2xwN3c5NTF3MDgwaTJydWpjNnVidzh2aCJ9.HEmnQ_uS261xM_5sh7yNfw"
+        },
+        {
+            "name": "bjndiscover (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bjndiscover (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "ACCESS_TOKEN": "pk.eyJ1IjoibWFnaGZpcmEiLCJhIjoiY2xwN3c5NTF3MDgwaTJydWpjNnVidzh2aCJ9.HEmnQ_uS261xM_5sh7yNfw"
+        
+        }
+    ]
+}
