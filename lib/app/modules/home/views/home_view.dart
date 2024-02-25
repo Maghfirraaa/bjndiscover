@@ -220,7 +220,8 @@ class HomeView extends GetView<HomeController> {
                       controller.updateSelectedIndexKategori(index);
                       // Filter data berdasarkan kategori yang dipilih
                       controller.filterDataByCategory(buttonLabels[index]);
-                      Get.forceAppUpdate();
+                      // Get.forceAppUpdate();
+                      Get.appUpdate();
                     },
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.resolveWith<Color>(
